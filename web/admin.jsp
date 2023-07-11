@@ -63,7 +63,7 @@
                         <button class="btn btn-outline-primary" type="submit">Search</button>
                     </form>
                     <div class="mx-2">
-                        <a action="logout.jsp" class="btn btn-primary">Log Out</a>
+                        <a href="index.jsp" class="btn btn-primary">Log Out</a>
                 </div>
                 </div>
         </nav>

@@ -76,7 +76,7 @@
         <table class="table my-2 ">
             <thead>
                 <tr>
-                    <th class="table-dark" scope="col">S.no.</th>
+                    
                     <th class="table-dark" scope="col">Book Name</th>
                     <th class="table-dark" scope="col">Author Name</th>
                     <th class="table-dark" scope="col">Price</th>
@@ -105,7 +105,7 @@
                     slno++;
           
         %>
-        <tr><td><%=rs.getString("sno")%></td><td><%=rs.getString("bname")%></td><td><%=rs.getString("aname")%></td><td><%=rs.getString("price")%></td><td><%=rs.getString("bcategory")%></td><td><%=rs.getString("bstatus")%></td></tr>
+        <tr><td><%=rs.getString("bname")%></td><td><%=rs.getString("aname")%></td><td><%=rs.getString("price")%></td><td><%=rs.getString("bcategory")%></td><td><%=rs.getString("bstatus")%></td></tr>
             <%
                 }
                 
